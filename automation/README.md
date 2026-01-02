@@ -27,3 +27,13 @@ This script supports command-line arguments, making it reusable in different env
 ```bash
 py automation/organize_files.py files_input files_output
 This approach allows flexible automation without modifying the source code.
+
+### Safe execution (dry-run)
+
+The script supports a dry-run mode that allows previewing file operations
+without making any changes:
+
+```bash
+py automation/organize_files.py files_input files_output --dry-run
+This feature is useful for preventing accidental file modifications
+in production environments.
