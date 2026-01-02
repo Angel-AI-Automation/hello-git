@@ -20,3 +20,10 @@ From the project root, run:
 
 ```bash
 py automation/organize_files.py
+### Command-line usage
+
+This script supports command-line arguments, making it reusable in different environments:
+
+```bash
+py automation/organize_files.py files_input files_output
+This approach allows flexible automation without modifying the source code.
