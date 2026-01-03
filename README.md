@@ -1,16 +1,47 @@
-# First Automation Script with Python
+# File Organizer Script (Python)
 
-This project demonstrates a simple automation task using Python.
-The script automatically creates multiple text files.
+## Overview
+This project is a Python automation script designed to organize files automatically by type, helping reduce manual work, human errors, and time wasted managing unstructured folders.
 
-## Skills demonstrated
-- Python basics
-- Automation logic
-- Git & GitHub workflow
+## Problem Statement
+In many real-world environments, files are often stored in a single directory without proper organization. This leads to disorganization, repetitive manual tasks, increased errors, and reduced productivity.
 
-This project is part of my learning path towards AI automation.
-# hello-git
-## Automation Example
+## Solution
+The script scans a source folder, identifies files based on their extensions, and moves them into categorized folders inside an output directory. This automation minimizes repetitive work and improves file management efficiency.
 
-This repository includes a Python script that automatically renames files inside a target folder.
-The script is designed as a foundation for more advanced automation and AI-based workflows.
+## Features
+- Automatic file organization by file extension
+- Command-line interface support
+- Clear and reusable automation logic
+- Simple folder-based workflow
+- Easily extendable for future improvements
+
+## How to Run
+```bash
+py automation/organize_files.py files_input files_output
+Use Cases
+Office and administrative environments
+
+Universities and academic institutions
+
+Freelancers managing multiple document types
+
+Small businesses and personal productivity workflows
+
+Technologies Used
+Python
+
+Standard libraries (os, sys)
+
+Command-line execution
+
+Git & GitHub
+
+Future Improvements
+Logging system for file operations
+
+Support for additional file formats
+
+Improved CLI arguments
+
+Optional user interface
