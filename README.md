@@ -19,7 +19,7 @@ The script scans a source folder, identifies files based on their extensions, an
 ## How to Run
 ```bash
 py automation/organize_files.py files_input files_output
-
+```
 ## Use Cases
 - Office and administrative environments
 - Universities and academic institutions
@@ -32,7 +32,7 @@ py automation/organize_files.py files_input files_output
 - Command-line execution
 - Git & GitHub
 
-##Future Improvements
+## Future Improvements
 - Logging system for file operations
 - Support for additional file formats
 - Improved CLI arguments
