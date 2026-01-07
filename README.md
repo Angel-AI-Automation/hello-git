@@ -3,6 +3,10 @@
 ## Overview
 This project is a Python automation script designed to organize files automatically by type, helping reduce manual work, human errors, and time wasted managing unstructured folders.
 
+## Why This Project Matters
+Manual file organization is a common but inefficient task in many workplaces.
+This script demonstrates how automation can reduce human error, save time, and improve daily productivity using Python tools.
+
 ## Problem Statement
 In many real-world environments, files are often stored in a single directory without proper organization. This leads to disorganization, repetitive manual tasks, increased errors, and reduced productivity.
 
@@ -20,6 +24,8 @@ The script scans a source folder, identifies files based on their extensions, an
 ```bash
 py automation/organize_files.py files_input files_output
 ```
+Make sure both folders exist before running the script.
+
 ## Use Cases
 - Office and administrative environments
 - Universities and academic institutions
