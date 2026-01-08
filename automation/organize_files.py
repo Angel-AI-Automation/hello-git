@@ -1,3 +1,11 @@
+"""
+File Organizer Script
+
+This script organizes files from a source folder into an output folder
+based on their file extensions. It is designed to be simple, reusable,
+and suitable for small office or administrative automation tasks.
+"""
+
 import os
 import sys
 import shutil
@@ -14,6 +22,7 @@ def validate_folders(source_folder, output_folder):
 
 def organize_files(source_folder, output_folder):
     if not os.listdir(source_folder):
+        # Early exit to avoid unnecessary processing when the folder is empty
         print("Source folder is empty. No files to organize.")
         return
 

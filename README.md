@@ -43,3 +43,9 @@ Make sure both folders exist before running the script.
 - Support for additional file formats
 - Improved CLI arguments
 - Optional user interface
+
+## Code Design Notes
+
+- The script uses clear function separation to improve readability.
+- Early exits are applied to avoid unnecessary processing.
+- The project is intentionally kept simple to ensure maintainability.
